@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>pie chart
+  </title>
+<style>
+    body{
+        background-image: url("color background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  .chart {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    background: conic-gradient(
+      #F16A70 0% 40%,
+      #B1D877 40% 70%,
+      #8CDCDA 70% 90%,
+      #4D4D4D 90% 100%
+    );
+   
+  }
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+  .label {
+    font-size: 20px;
+    color: #333;
+  }
+</style>
+</head>
+<body>
+ 
+  <center>
+      <h1>Pie chart</h1>
+<div class="chart">
+  <div class="center">
+</div>
+</div>
+<h4>CURRENT BILL - $4000 - 40%</h4>
+<h4>HOUSEHOLD THINGS - $3000 - 30%</h4>
+<h4>HOUSE RENT - $2000 - 20%</h4>
+<h4>FOOD - $1000 - 10%</h4>
+</center>
+</body>
+</html>
