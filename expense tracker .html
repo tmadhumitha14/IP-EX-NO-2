@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<title>Expense Tracker</title> 
+	<link rel="stylesheet" href="expense tracker.css" /> 
+        <style>
+            body {
+                background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210224/pngtree-blue-abstract-background-business-image_564246.jpg');
+                background-size:cover; 
+                background-repeat: no-repeat; 
+            }
+    
+            .container {
+                
+                background-color: rgba(255, 255, 255, 0.8); 
+                padding: 20px; 
+            }
+        </style>
+    </head> 
+<body> 
+<div class="container"> 
+<h1>Expense Tracker</h1> 
+		<form id="expense-form"> 
+			<input type="text"
+				id="expense-name"
+				placeholder="Expense Name" required /> 
+			<input type="number"
+				id="expense-amount"
+				placeholder="Amount" required /> 
+			<button type="submit"> 
+				Add Expense 
+			</button> 
+		</form> 
+		<div class="expense-table"> 
+			<table> 
+				<thead> 
+					<tr> 
+						<th>Expense Name</th> 
+						<th>Amount</th> 
+						<th>Action</th> 
+					</tr> 
+				</thead> 
+				<tbody id="expense-list"></tbody> 
+			</table> 
+			<div class="total-amount"> 
+				<strong>Total:</strong> 
+				$<span id="total-amount">0</span> 
+			</div> 
+		</div> 
+	</div> 
+	<script src="script.js"></script> 
+</body> 
+
+</html>
