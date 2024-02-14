@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>reset</title>
+        <style>
+            body{
+                height:1000px;
+                width:1000px;
+         background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url("expense track.webp");
+         background-repeat:repeat-x;
+            }
+            </style>
+       
+    </head>
+    <body>
+        <center>
+        <form>
+            <fieldset>
+                <legend>password-reset-form</legend>
+<div id="alert"></div>
+<h3>password<input type="password"></h3>
+<h3>password-verify:<input type="password"></h3>
+<h3><input type="submit">
+<input type="reset"> </h3>
+            </fieldset>
+</form>
+            </center>
+    </body>
+</html>
